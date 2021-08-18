@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-content>
+        <form>
+            <img class="logo" src="assets/images/logo.png">
+
+            <h2>Welcome Admin</h2>
+            <mat-error>
+                The username and password were not recognized
+            </mat-error>
+            <mat-form-field class="full-width-input">
+                <input matInput placeholder="Email">
+                <mat-error>
+                    Please provide a valid email address
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="full-width-input">
+                <input matInput type="password" placeholder="Password">
+                <mat-error>
+                    Please provide a valid password
+                </mat-error>
+            </mat-form-field>
+            <button class="loginBtn" mat-raised-button color="primary">Login</button>
+        </form>
+    </mat-card-content>
+</mat-card>
